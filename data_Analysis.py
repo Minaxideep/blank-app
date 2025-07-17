@@ -47,8 +47,8 @@ if uploaded_file:
         st.dataframe(grouped_df)
 
         # Simple bar chart
-        st.subheader("Frequency by Website")
-        st.bar_chart(grouped_df["frequency"])
+        st.subheader("AGE_AT_SCAN")
+        st.bar_chart(grouped_df["AGE_AT_SCAN"])
 
     except Exception as e:
         st.error(f"Error reading the file: {e}")
