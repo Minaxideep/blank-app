@@ -1,4 +1,5 @@
 import streamlit as st
+pip install openpyxl
 import pandas as pd
 
 st.set_page_config(page_title="Website Visitors Analysis", layout="centered")
